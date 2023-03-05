@@ -1,6 +1,6 @@
 import requests
 
-api_key = "0bddcc3609d450dc7d5264d45b10ab09"
+api_key = "openweathermap api_key"
 city = "ubon ratchathani"
 
 url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
