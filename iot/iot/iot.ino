@@ -5,11 +5,11 @@
 #include <ESP8266WiFi.h>
 #endif
 
-#define WIFI_SSID "FF1_15" // your wifi SSID
-#define WIFI_PASSWORD "123456789" //your wifi PASSWORD
+#define WIFI_SSID "your wifi SSID" // your wifi SSID
+#define WIFI_PASSWORD "your wifi PASSWORD" //your wifi PASSWORD
 
-#define FIREBASE_HOST "https://ai-chan-3074e-default-rtdb.asia-southeast1.firebasedatabase.app/" // change here
-#define FIREBASE_AUTH "6ZvQouJvYS9gnYN9deaY3PPyLgu0Xa78mtQTf6vD"  // your private key
+#define FIREBASE_HOST " FIREBASE_HOST" // change here
+#define FIREBASE_AUTH " FIREBASE_HOST"  // your private key
 FirebaseData firebaseData;
 
 int LedPin = D0;
