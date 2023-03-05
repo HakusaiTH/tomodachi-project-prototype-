@@ -6,7 +6,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 sid = SentimentIntensityAnalyzer()
 
-openai.api_key = "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"
+openai.api_key = "openai.api_key"
 
 model_engine = "text-davinci-003"
 
