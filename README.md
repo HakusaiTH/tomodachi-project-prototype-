@@ -7,3 +7,5 @@ NLTK ,
 flask ,html, css, js, ajxa, 
 firebase database, 
 node mcu
+
+โปรแกรมนี้ไม่ได้ออกแบบมาเพื่อ responsivts กับทุกอุปกรณ์ขนาดที่แนะนำคือ  720 X 1600
