@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 30px 0px;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    background-image: url('/static/img/back-ground.jpg');
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.box_text {
+    width: 80%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , 80%)
+}
+
+.box_dow, .box_up{
+    background-color: white;
+    border: 3px solid black;
+    padding: 50px 20px;
+}
+
+.box_up {
+    padding: 10px;
+    width: fit-content;
+}
+
+.box_up h2 {
+    margin: 0px;
+}
+
+.box_dow {
+    width: 600px;
+    height: 150px;
+    overflow:auto
+}
+
+.box_dow h3 {
+    margin: 0px;
+}
+
+.img img {
+    width: 100%;
+    height: 900px;
+}
+
+.img {
+    padding: 50px 10px;
+    text-align: center;
+    position: absolute;
+    transform: translate(0% , 5%)
+}
+
+.box_text_content {
+    position: absolute;
+    transform: translate(-5% , 280%)
+}
+
+.user_intput {
+    position: absolute;
+    width: 100%;
+    transform: translate(0% , 1150%)    
+}
+
+.user_intput form {
+    display: flex;
+    flex-direction: row;
+}
+
+.user_intput input[type=text] {
+    width: 80%;
+    padding: 30px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size:30px;
+}
+
+.user_intput button {
+    width: 20%;
+    padding: 5px 10px;
+    margin:  10px 5px;
+}
+
+.user_intput h3 {
+    margin: 0px;
+}
+
+.tem {
+    position: absolute;
+    padding: 10px;
+    transform: translate(5% , -10%)    
+}
+
+.tem h1 {
+    margin: 0px;
+    font-size: 80px;
+}
+
+.tem h2 {
+    margin: 0px;
+}

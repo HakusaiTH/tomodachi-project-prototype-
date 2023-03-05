@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script/script.js') }}"></script>
+
+    <title>tomodachi</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="container">
+        <div class="tem">
+            <h1 id="clock" ></h1>
+            <h2  id="data_tem"></h2>
+        </div>
+        <div class="img">
+            <img id="my-image" src="{{ url_for('static', filename='img/n.png') }}">
+        </div>
+        <div class="box_text">
+            <div class="box_text_content">
+                <div class="box_up"><h2>Ai chan</h2></div>
+                <div class="box_dow">
+                    <h3 id="successAlert" ></h3>
+                </div>
+            </div>
+            <div class="user_intput">
+                <form action="index">
+                    <input type="text" id="nameInput">
+                    <button type="submit" value="Submit"><h3>Submit</h3></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

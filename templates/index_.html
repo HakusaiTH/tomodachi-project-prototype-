@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+    <title>tomodachi</title>
+</head>
+<body>
+    <script>
+        function updateTime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+            var timeString = hours + ":" + minutes + ":" + seconds;
+            document.getElementById("clock").innerHTML = timeString;
+        }
+        setInterval(updateTime, 1000);
+    </script>
+
+    <div class="container">
+        <div class="tem">
+            <h1 id="clock" ></h1>
+            <h2>{{temps}}</h2>
+        </div>
+        <div class="img">
+            <img src="{{img}}" alt="">
+        </div>
+        <div class="box_text">
+            <div class="box_text_content">
+                <div class="box_up"><h2>Ai chan</h2></div>
+                <div class="box_dow">
+                    <h3>{{user_int}}</h3>
+                </div>
+            </div>
+            <div class="user_intput">
+                <form action="index">
+                    <input type="text" name="user_int" value="">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
