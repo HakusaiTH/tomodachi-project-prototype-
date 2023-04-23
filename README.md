@@ -1,3 +1,5 @@
+![tomodachi](https://user-images.githubusercontent.com/104154862/233820032-62a07d2e-64ce-4b7e-80e8-11749bd65ad6.jpg)
+
 # คู่มือการใช้งาน
 ## การรันโปรแกรม
 * ติดตั้ง Python บนเครื่องของคุณ (ถ้ายังไม่ได้ติดตั้ง)
